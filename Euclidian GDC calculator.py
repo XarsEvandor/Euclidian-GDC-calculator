@@ -4,8 +4,8 @@
 # In[62]:
 import math
 
-x = 100001
-y = 1001
+x = 84
+y = 49
 conf = math.gcd(x,y)
 
 while y != 0:
@@ -17,3 +17,4 @@ while y != 0:
 print("GCD --> " + str(x))
 print("Confirmation --> " + str(conf))
 
+print(((21-7)/5)%26)
